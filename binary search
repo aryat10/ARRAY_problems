@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> 
 #include <math.h>
 #include <climits>
 using namespace std;
@@ -6,8 +6,8 @@ int binarysearch(int arr[], int n, int key)
 {
 
     int mid;
-    int s = 0;
-    int e = n;
+    int s = 0;  // considering the lowermost point in the array 
+    int e = n;   // considering the upermost point in the array
     while (s <= e)
     {
         mid = (s + e) / 2;
